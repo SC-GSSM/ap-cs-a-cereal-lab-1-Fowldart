@@ -29,19 +29,19 @@ public class Cereal
         this.name = name;
     }
 
-    public void setCalories(String calories){
+    public void setCalories(int calories){
         this.calories = calories;
     }
 
-    public void setFiber(String fiber){
+    public void setFiber(int fiber){
         this.fiber = fiber;
     }
 
-    public void setCarbohydrates(String carbohydrates){
+    public void setCarbohydrates(int carbohydrates){
         this.carbohydrates = carbohydrates;
     }
 
-    public void setCups(String cups){
+    public void setCups(double cups){
         this.cups = cups;
     }
 
