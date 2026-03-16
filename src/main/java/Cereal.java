@@ -10,13 +10,13 @@ public class Cereal
     // private instance variables to hold info about a cereal from the data set
     // the name, calories, fiber, carbohydrates, and cups
     private String name;
-    private int calories;
-    private int fiber;
-    private int carbohydrates;
-    private int cups;
+    private String calories;
+    private String fiber;
+    private String carbohydrates;
+    private String cups;
 
     // constructor that creates a cereal object
-    public Cereal(String name, int calories, int fiber, int carbohydrates, int cups){
+    public Cereal(String name, String calories, String fiber, String carbohydrates, String cups){
         this.name = name;
         this.calories = calories;
         this.fiber = fiber;
@@ -29,19 +29,19 @@ public class Cereal
         this.name = name;
     }
 
-    public void setCalories(int calories){
+    public void setCalories(String calories){
         this.calories = calories;
     }
 
-    public void setFiber(int fiber){
+    public void setFiber(String fiber){
         this.fiber = fiber;
     }
 
-    public void setCarbohydrates(int carbohydrates){
+    public void setCarbohydrates(String carbohydrates){
         this.carbohydrates = carbohydrates;
     }
 
-    public void setCups(int cups){
+    public void setCups(String cups){
         this.cups = cups;
     }
 
@@ -49,19 +49,19 @@ public class Cereal
         return name;
     }
 
-    public int getCalories(){
+    public String getCalories(){
         return calories;
     }
 
-    public int getFiber(){
+    public String getFiber(){
         return fiber;
     }
 
-    public int getCarbohydrates(){
+    public String getCarbohydrates(){
         return carbohydrates;
     }
 
-    public int getCups(){
+    public String getCups(){
         return cups;
     }
 
