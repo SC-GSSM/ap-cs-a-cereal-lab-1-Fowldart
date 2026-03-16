@@ -11,7 +11,7 @@ public class CerealRunner
     public CerealRunner(String fileName)
     {
         // instantiate the ArrayList
-        ArrayList<Cereal> cerealList = new ArrayList<Cereal>();
+        ArrayList<Cereal> cereals = new ArrayList<Cereal>();
 
         try
         {
