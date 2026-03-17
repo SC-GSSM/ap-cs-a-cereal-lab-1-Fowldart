@@ -31,7 +31,7 @@ public class CerealRunner
                 String name = info[0];
                 double calories = Double.parseDouble(info[1]);
                 double fiber = Double.parseDouble(info[2]);
-                double carbohydrates = Double.parseDOuble(info[3]);
+                double carbohydrates = Double.parseDouble(info[3]);
                 double cups = Double.parseDouble(info[4]);
                 
 
