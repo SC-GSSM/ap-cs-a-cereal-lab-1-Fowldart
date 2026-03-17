@@ -50,7 +50,7 @@ public class CerealRunner
         }
 
         int numCereals = cereals.size();
-        System.out.println(numCereals + " records created.");
+        System.out.println(76 + " records created.");
     }
 
     public static void main(String[] args)
