@@ -1,8 +1,8 @@
 /**
  * Cereal.java
  *
- * @author – Your name
- * @author – Class period
+ * @author – William Phillips
+ * @author – 8am
  *
  */
 public class Cereal
@@ -10,13 +10,13 @@ public class Cereal
     // private instance variables to hold info about a cereal from the data set
     // the name, calories, fiber, carbohydrates, and cups
     private String name;
-    private int calories;
-    private int fiber;
-    private int carbohydrates;
-    private double cups;
+    private String calories;
+    private String fiber;
+    private String carbohydrates;
+    private String cups;
 
     // constructor that creates a cereal object
-    public Cereal(String name, int calories, int fiber, int carbohydrates, double cups){
+    public Cereal(String name, String calories, String fiber, String carbohydrates, String cups){
         this.name = name;
         this.calories = calories;
         this.fiber = fiber;
@@ -49,19 +49,19 @@ public class Cereal
         return name;
     }
 
-    public int getCalories(){
+    public String getCalories(){
         return calories;
     }
 
-    public int getFiber(){
+    public String getFiber(){
         return fiber;
     }
 
-    public int getCarbohydrates(){
+    public String getCarbohydrates(){
         return carbohydrates;
     }
 
-    public double getCups(){
+    public String getCups(){
         return cups;
     }
 
