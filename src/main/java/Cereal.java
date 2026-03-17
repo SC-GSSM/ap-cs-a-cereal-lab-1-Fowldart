@@ -37,7 +37,7 @@ public class Cereal
         this.fiber = fiber;
     }
 
-    public void setCarbohydrates(double carbohydrates){
+    public void setCarbs(double carbohydrates){
         this.carbohydrates = carbohydrates;
     }
 
